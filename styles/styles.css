@@ -188,7 +188,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    margin-top: 80px;
 }
 
 footer p{
@@ -206,5 +206,135 @@ footer p{
     color: blue;
     text-decoration: underline;
     transition: 0.8s;
+
+}
+
+/*Pagina de usuario*/
+
+.usuario{
+    width: min(600px, 100%);
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 83, 169, 0.258);
+    border-radius: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.usuario fieldset{
+    border: none;
+
+}
+
+.usuario legend{
+    color: rgb(75, 0, 71);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.campo label{
+    color: purple;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    display: block;
+}
+
+.campo input{
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: white;
+    border: none;
+    border-bottom: solid rgba(255, 255, 255, 0.463) 1px;
+    color: rgb(88, 28, 71);
+    border-radius: 15px;
+    padding: 10px 5px;
+    border-bottom: solid rgb(190, 190, 190);
+
+}
+
+.btn_enviar input{
+    background-color: rgb(255, 20, 228);
+    border:none;
+    padding: 10px 20px;
+    color: rgb(128, 0, 113);
+    font-weight: 700;
+    border-radius: 370px;
+}
+
+.btn_enviar input:hover{
+    background-color: rgb(129, 0, 184);
+    transition: .3s;
+}
+
+/*Contacto*/
+
+.contacto{
+    width: min(700px, 100%);
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: rgba(226, 43, 220, 0.5);
+    text-align: center;
+    border-radius: 40px;
+}
+
+.contacto fieldset{
+    border: none;
+}
+
+.contacto h4{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+
+.campo textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: none;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    color: rgb(88, 28, 71);
+    border-radius: 10px;
+    padding: 10px 5px;
+    border-bottom: solid rgb(202, 202, 202);
+}
+
+/*Productos*/
+
+.productos h5{
+    text-align: center;
+    font-size: 30px;
+}
+
+.bloque-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloque-form img{
+    width: 60%;
+}
+
+.buho{
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.contenedor2{
+    width: 90%;
+    margin: 0 auto;
 
 }
